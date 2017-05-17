@@ -228,3 +228,7 @@ scope. To inspect what happened we can write:
     RuntimeError: No active exception to reraise
 
 which will rethrow the first encountered exception and reset all the island states to ``idle``.
+
+
+Multiprocessing and dill
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
